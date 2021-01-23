@@ -1,0 +1,101 @@
+{
+    "basics": {
+      "name": "Pineda Gaston Pineda",
+      "label": "Full-Stack Developer",
+      "picture": "/assets/images/mpineda-profile.png",
+      "email": "pinedamg@gmail.com",
+      "phone": "+54 9 11 3501 1267",
+      "website": "http://mpineda.com.ar",
+      "summary": "A foolish who fell in love with programming.",
+      "location": {
+        "address": "Jose Luis Pereyra 1081",
+        "postalCode": "1648",
+        "city": "Tigre",
+        "countryCode": "AR",
+        "region": "Buenos Aires"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "pinedamg",
+          "url": "https://twitter.com/pinedamg"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "pinedamg",
+          "url": "https://linkedin.com/in/pinedamg"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "MPineda",
+        "position": "Freelance",
+        "website": "https://mpineda.com.ar",
+        "startDate": "2010-01-01",
+        "endDate": "",
+        "summary": "Freelance site where I worked on several sites",
+        "highlights": [
+          "First Highlight",
+          "Second Highlight"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institution name",
+        "area": "area",
+        "studyType": "study type",
+        "startDate": "2011-06-01",
+        "endDate": "2014-01-01",
+        "gpa": "gpa",
+        "courses": [
+          "course 1",
+          "course 2",
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "PHP",
+        "level": "Master",
+        "keywords": [
+          "Keyword 1",
+          "Keyword 2",
+        ]
+      },
+      {
+        "name": "Magento",
+        "level": "Certified",
+        "keywords": [
+          "Keyword 1",
+          "Keyword 2",
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Interest Name",
+        "keywords": [
+          "Keyword 1",
+          "Keyword 2"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Reference Name",
+        "reference": "The reference itself"
+      }
+    ]
+  }
