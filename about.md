@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there!, I'm Mauricio Gaston Pineda, as you already heard, a fool who fell in love with programming. But that is not enough with more passion I went through several languages, from C++, VisualBasic, C#, VB.net, PHP, Android, Flutter, and lots of others that were just for fun.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+But, my best skill is in Magento, since started with Mage in 2008 I never stopped work on it. Both versions 1 and 2, and I can take any sides front-end or back-end, but my preferred is the back-end.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Do you want to know which is my machine setup?:
+- PopOS! (debian/ubuntu)
 
-
-[jekyll-organization]: https://github.com/jekyll
+Do you want to know which are my tools?:
+- Docker
