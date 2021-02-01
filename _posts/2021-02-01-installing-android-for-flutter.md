@@ -12,7 +12,7 @@ categories: android flutter popos
 5. Run 'flutter doctor'
 6. flutter config --android-studio-dir="/snap/android-studio/current/android-studio"
 7. flutter doctor --android-licenses
-8. Done!, It should look like below
+8. Done!, It should looks like as below
 
 ```
 $ flutter doctor                   
