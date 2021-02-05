@@ -26,6 +26,8 @@ $ flutter config
   android-studio-dir: /home/mpineda/Work/softwares/android-studio
   android-sdk: /home/mpineda/Android/Sdk
 ```
+
+```
 $ flutter doctor                   
 Doctor summary (to see all details, run flutter doctor -v):
 [✓] Flutter (Channel master, 1.26.0-18.0.pre.75, on Linux, locale en_US.UTF-8)
