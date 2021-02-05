@@ -5,15 +5,26 @@ date:   2021-02-01 08:35:45 -0600
 categories: android flutter popos
 ---
 
+Prerequisites:
+- Oracle JDK
+
 1. Clone flutter from Github
 2. Download and install Android ZIP
-3. Install SDK (android device) into Android Studio
-4. Install Flutter Plugin into Android Studio
-5. Run 'flutter doctor'
-6. flutter config --android-studio-dir="/snap/android-studio/current/android-studio"
-7. flutter doctor --android-licenses
-8. Done!, It should looks like as below
+3. Install Oracle JDK download from https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
+4. https://www.fosslinux.com/41519/how-to-install-java-on-pop_os.htm
+5. Install SDK (android device) into Android Studio at least 2 type (30 a 29 for example)
+6. Install Flutter Plugin into Android Studio
+7. Run 'flutter doctor'
+8. flutter config --android-studio-dir="/home/mpineda/Work/softwares/android-studio"
+9. flutter config --android-sdk="/home/mpineda/Android/Sdk"
+10. flutter doctor --android-licenses
+11. Done!, It should looks like as below
 
+```
+$ flutter config
+......
+  android-studio-dir: /home/mpineda/Work/softwares/android-studio
+  android-sdk: /home/mpineda/Android/Sdk
 ```
 $ flutter doctor                   
 Doctor summary (to see all details, run flutter doctor -v):
