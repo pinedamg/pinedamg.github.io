@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Jekyll Server",
+        "type": "shell",
+        "command": "docker-compose up",
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Clean Jekyll Cache",
+        "type": "shell",
+        "command": "docker-compose exec jekyll jekyll clean",
+        "problemMatcher": []
+      },
+      {
+        "label": "Build Jekyll Site",
+        "type": "shell",
+        "command": "docker-compose exec jekyll jekyll build",
+        "problemMatcher": []
+      }
+    ]
+  }
+  

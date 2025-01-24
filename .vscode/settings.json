@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+      "*.md": "markdown",
+      "*.html": "html"
+    },
+    "editor.formatOnSave": true,
+    "docker.containers.refreshInterval": 5000,
+    "yaml.schemas": {
+      "https://json.schemastore.org/kubernetes.json": "/*"
+    },
+    "markdown.preview.frontMatter": true,
+    "jekyll.serve.autoStart": true
+  }
+  
