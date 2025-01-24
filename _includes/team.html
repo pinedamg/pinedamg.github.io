@@ -1,37 +1,45 @@
-<!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+<!-- Recommendations Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Recommendations</h2>
+                <h3 class="section-subheading text-muted">What others say about working with me.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <img src="img/recommendations/natalia.jpg" class="img-responsive img-circle" alt="Natalia Settimi">
+                    <h4>Natalia Settimi</h4>
+                    <p class="text-muted">Product Designer</p>
+                    <p class="large text-muted">"For two years Mauricio was my Tech Lead at ITX Corp. He is experienced, always willing to share knowledge, and does it with patience and a smile. A transparent and honest person. Definitely worth recommending!"</p>
                 </div>
             </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <img src="img/recommendations/jennifer.jpg" class="img-responsive img-circle" alt="Jennifer Tello">
+                    <h4>Jennifer Tello</h4>
+                    <p class="text-muted">Senior Consultant at Slalom</p>
+                    <p class="large text-muted">"Mauricio demonstrated great sensitivity to organizational needs and creativity in problem-solving. He is committed, motivated, and dedicated, with skills and work ethic that showed every week."</p>
                 </div>
-                {% endfor %}
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <img src="img/recommendations/dijana.jpg" class="img-responsive img-circle" alt="Dijana Hodzic">
+                    <h4>Dijana Hodzic</h4>
+                    <p class="text-muted">Consultant at Deloitte</p>
+                    <p class="large text-muted">"Highly recommended! Mauricio knows his stuff, is hardworking, and goes above and beyond. Great at communication, always available to answer questions, and ensures client satisfaction."</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="team-member">
+                    <img src="img/recommendations/john.jpg" class="img-responsive img-circle" alt="John Arroyo">
+                    <h4>John Arroyo</h4>
+                    <p class="text-muted">Head of Developer Pipelines at Citi</p>
+                    <p class="large text-muted">"Mauricio is an excellent Magento developer and PHP OOP developer. His experience and skill have been a great contribution to the team."</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
