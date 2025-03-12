@@ -41,3 +41,9 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+
+include:
+  - robots.txt
