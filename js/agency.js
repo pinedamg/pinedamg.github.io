@@ -47,3 +47,23 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    let startTime = Date.now();
+
+    window.addEventListener("beforeunload", function () {
+        let timeSpent = Math.round((Date.now() - startTime) / 1000); // Tiempo en segundos
+        gtag('event', 'time_on_page', {
+            'event_category': 'User Engagement',
+            'event_label': document.title,
+            'value': timeSpent
+        });
+    });
+});
+
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    gtag('event', 'form_submission_attempt', {
+        'event_category': 'Form',
+        'event_label': 'Contact Form'
+    });
+});

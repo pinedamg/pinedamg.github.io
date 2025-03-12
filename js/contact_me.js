@@ -14,6 +14,11 @@ document.getElementById("contact-form").addEventListener("submit", async functio
         if (response.ok) {
             status.innerHTML = "<p style='color: green;'>Thank you! Your message has been sent.</p>";
             form.reset();
+            // Registrar en Google Analytics solo si el mensaje fue enviado exitosamente
+            gtag('event', 'form_submission_success', {
+                'event_category': 'Form',
+                'event_label': 'Contact Form'
+            });
         } else {
             let result = await response.json();
             if (result.errors) {
