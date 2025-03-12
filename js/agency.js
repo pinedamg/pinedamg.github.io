@@ -35,3 +35,15 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Selecciona todos los enlaces dentro del menú de navegación
+  document.querySelectorAll("nav a").forEach(function (menuLink) {
+      menuLink.addEventListener("click", function () {
+          gtag('event', 'click', {
+              'event_category': 'Navigation',
+              'event_label': menuLink.textContent.trim() // Usa el texto del enlace como etiqueta
+          });
+      });
+  });
+});
