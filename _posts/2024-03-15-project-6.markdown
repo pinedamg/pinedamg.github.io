@@ -1,0 +1,15 @@
+---
+title: Security & Performance Optimization in Microservices
+subtitle: Scalable & Secure Architecture
+layout: default
+modal-id: 6
+date: 2024-03-22
+img: security-performance.png
+thumbnail: fa fa-shield-alt
+icon-color: "#386ac7"
+alt: image-alt
+project-date: March 2024
+client: ITX Corp
+category: Software Security
+description: Led security enhancements and performance optimization for a microservices-based platform. Upgraded Auth0 authentication, improved API latency, and optimized database queries, ensuring a robust and scalable architecture.
+---

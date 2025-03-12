@@ -1,0 +1,15 @@
+---
+title: POS System with Bluetooth Payments
+subtitle: Mobile Transactions
+layout: default
+modal-id: 3
+date: 2024-03-15
+img: pos-system.png
+thumbnail: fa fa-credit-card
+icon-color: "#5ada65"
+alt: image-alt
+project-date: March 2024
+client: ITX Corp
+category: Fintech Solutions
+description: Developed a mobile payment system with Bluetooth connectivity, enabling seamless integration with card readers on Android and iOS.
+---

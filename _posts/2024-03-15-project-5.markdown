@@ -1,0 +1,15 @@
+---
+title: API Integrations & Payment Gateways
+subtitle: E-commerce Payment Processing
+layout: default
+modal-id: 5
+date: 2024-03-20
+img: api-integration.png
+thumbnail: fa fa-plug
+icon-color: "#8544d4"
+alt: image-alt
+project-date: March 2024
+client: Up and Running Software
+category: API Development
+description: Developed and integrated advanced payment gateways, ensuring seamless transactions for e-commerce platforms. Established secure connections with Amazon MWS and Twilio, improving order management and user experience.
+---

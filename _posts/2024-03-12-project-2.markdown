@@ -1,0 +1,15 @@
+---
+title: Monolith to Microservices Migration
+subtitle: Scalability & Security
+layout: default
+modal-id: 2
+date: 2024-03-12
+img: microservices-migration.png
+thumbnail: fa fa-cogs
+icon-color: "#a7e621"
+alt: image-alt
+project-date: March 2024
+client: ITX Corp
+category: Software Architecture
+description: Led the migration of a monolithic system to microservices, enhancing scalability and security using Docker, Kubernetes, and Auth0 authentication.
+---

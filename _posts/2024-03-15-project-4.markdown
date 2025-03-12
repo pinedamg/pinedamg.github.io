@@ -1,0 +1,15 @@
+---
+title: Automation & CI/CD for Magento Deployments
+subtitle: Continuous Integration & Deployment
+layout: default
+modal-id: 4
+date: 2024-03-18
+img: ci-cd-automation.png
+thumbnail: fa fa-rocket
+icon-color: "#ec3f3f"
+alt: image-alt
+project-date: March 2024
+client: TradeHelm
+category: DevOps & Automation
+description: Designed and optimized CI/CD pipelines to automate Magento 2 deployments. Reduced manual intervention and enhanced the reliability of updates by implementing fully automated workflows using Jenkins, Ansible, and Docker.
+---

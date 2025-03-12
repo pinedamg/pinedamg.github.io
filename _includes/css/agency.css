@@ -448,7 +448,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -673,23 +673,25 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+.recommendation-member {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
+.recommendation-member img {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px; /* Mantiene la proporción */
+    margin: 0 auto; /* Centra la imagen */
+    border: 5px solid #fff; /* Mantiene el borde */
 }
 
-.team-member h4 {
+.recommendation-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
 }
 
-.team-member p {
+.recommendation-member p {
     margin-top: 0;
 }
 

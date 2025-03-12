@@ -6,6 +6,12 @@ title: MPineda | Full-Stack Developer
 email: pinedamg@gmail.com
 description: "Delivering reliable and scalable web solutions for e-commerce and beyond. Specializing in PHP, Ruby, and Flutter."
 
+me:
+  - fullname: Mauricio Gastón Pineda
+    shortname: Mauricio Pineda
+    title: Full-Stack Developer
+    email: pinedamg@gmail.com
+
 # Team names, titles, and social links (Updated for individual branding)
 people:
   - name: Mauricio Gastón Pineda

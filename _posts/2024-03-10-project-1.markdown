@@ -1,0 +1,15 @@
+---
+title: Magento 2 Performance Optimization
+subtitle: High-Traffic Scalability
+layout: default
+modal-id: 1
+date: 2024-03-10
+img: magento-performance.png
+thumbnail: devicon-magento-plain
+icon-color: "#FF6F00"
+alt: image-alt
+project-date: March 2024
+client: TradeHelm
+category: E-Commerce Solutions
+description: Optimized the architecture and performance of a high-traffic Magento 2 platform, ensuring smooth user experience and better stability during peak times.
+---
